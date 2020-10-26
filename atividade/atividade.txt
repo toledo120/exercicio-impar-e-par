@@ -1,0 +1,21 @@
+EX1- Java
+package par_ou_impar
+import java.util.Scanner;
+public class par_ou_impar
+{
+public static void main(String[]args)
+{
+Scanner entrada
+int n;
+ entrada = new Scanner(System.in);
+  
+  System.out.print("Digite um numero:");
+  n = entrada.nextInt();
+  
+  if(n%2 == 0){
+   System.out.println("Numero é Par");
+  }
+  
+  else if(n%2 == 1){
+   System.out.println("Numero é Impar");
+  }
